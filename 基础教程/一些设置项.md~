@@ -1,0 +1,29 @@
+# 停止播放后回到原来的位置
+ Edit -> Editor Preference -> *Use Camera Location from Play-In-Viewport*
+ 新项目都需要设置
+
+# 鼠标中键操作
+  Editor -> Editor Preference -> Invert Middle Mouse Pan
+  4.2.5.4没效果
+
+# 基本操作快捷键
+* 按住Alt拖动物体可以快速拷贝
+* 选中多个对象后，通过Crtl+G，将其变为一个对象，这样方便拖放, 解组（SHIFT+G） 
+* BSP的使用：可以针对每个点线面进行设置
+* 在场景中选中一个对象，通过Control+B可以快速定位到
+* 快速拷贝蓝图中的对象：Control+W
+
+# UE Actor vs Unity GameObject
+## UE 
+  World outliner 没有父子关系,全部都在根层，没有层级关系
+  但可以绑子组件
+
+## Unity
+  每个Inspector看作是一个 Entity Component(EC)  
+  即每个Component都有一个唯一的id去标识
+
+# Unity Transform vs UE scene
+  Unity doesnt need to inherit Transform class <=> UE4 sometime you will inherit scene component
+
+# UE4添加自定义像机并设置为Main Camera
+  https://blog.csdn.net/u013824564/article/details/107272186

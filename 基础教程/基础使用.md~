@@ -1,0 +1,39 @@
+# 安装问题
+  DirectX修复工具，修复安装后打开报错：0x0000007
+
+# 启动器找不到本地引擎
+https://blog.csdn.net/ttm2d/article/details/106161970 
+
+<ol>
+<li>
+  安装EpicInstaller，然后启动下面这个Epic Games Launcher(下文称之为Epic客户端)
+  <img src="../../img/基础教程/基础使用/引擎启动器.png" />
+</li>
+
+
+<li>
+  点击安装按钮
+  <img src="../../img/基础教程/基础使用/引擎启动器.png"/>
+</li>
+
+
+<li>
+  这时会弹出一个安装选项对话框，点击浏览按钮，定位到你刚建好的Unreal Engine文件夹
+  不要点击下图中的安装按钮，否则就会直接从官网下载了
+  <b>先暂停到这个地方，也不要点击取消</b>
+
+  <img src="../../img/基础教程/基础使用/点击安装按钮.png"/>
+</li>
+
+<li>
+  把离线安装包中的"UE_4_25"文件夹直接解压到Unreal Engine文件夹下
+  <img src="../img/基础教程/基础使用/解压引擎包到安装目录下.png"/>
+</li>
+
+7.回到第5步，点击安装
+
+</ol>
+
+
+# 从Unity3D到Unreal4
+  https://www.bilibili.com/video/BV1tt411t7Xz
